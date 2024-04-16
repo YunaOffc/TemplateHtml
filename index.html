@@ -3,216 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SELAMAT DATANG DI MATA ARENA</title>
-    <body>Enter your code, to join.</body>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <style>
-        #loadingIndicator {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: none;
-        }
-        #modelOutput {
-            position: relative;
-            overflow: hidden;
-            max-width: 100%;
-            max-height: 100vh;
-        }
-        .btn-clear {
-            position: absolute;
-            top: 5px;
-            left: 5px;
-        }
-        .btn-download {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-        }
-        .btn-share {
-            position: absolute;
-            bottom: 5px;
-            left: 5px;
-        }
-        .btn-zoom-in {
-            position: absolute;
-            bottom: 5px;
-            right: 5px;
-        }
-        .btn-zoom-out {
-            position: absolute;
-            bottom: 5px;
-            right: 40px;
-        }
-        #imageContainer {
-            position: relative;
-        }
-        #zoomedImage {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 100%;
-            max-height: 100%;
-            background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang hitam transparan */
-            z-index: 9999; /* Tingkatkan z-index agar gambar zoom muncul di depan */
-            display: none; /* Mulai dengan menyembunyikan gambar zoom */
-        }
-    </style>
+    <title>Biografi</title>
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="mb-4">M.A.T.A ARENA</h1>
-        <form id="modelForm">
-            <div class="form-group">
-                <label for="prompt">M.A.T.A:</label>
-                <input type="text" class="form-control" id="prompt" name="prompt" placeholder="Enter your codes!">
-            </div>
-            <button type="button" class="btn btn-primary" onclick="generateModel()">Check Now</button>
-        </form>
-     <description>Agen good, never late</description>
+    <h1>Biografi Singkat</h1>
+    <img src="gambar.jpg" alt="Foto Profil">
 
-     </a></li>
+    <h2>Data Pribadi</h2>
+    <ul>
+        <li>Nama: John Doe</li>
+        <li>Tanggal Lahir: 1 Januari 1990</li>
+        <li>Tempat Lahir: Kota ABC</li>
+        <li>Alamat: Jalan ABC No. 123</li>
+    </ul>
 
-            </ul>
-          </div>
-          <div class="px-lg-4">
-              <span class="d-block h4 color-fg-default my-1" id="product-explore-heading">Explore</span>
-            <ul class="list-style-none f5" aria-labelledby="product-explore-heading">
-                <li>
-  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to All features&quot;,&quot;label&quot;:&quot;ref_cta:All features;&quot;}" href="/features">
-      List Agen
+    <h2>Pendidikan</h2>
+    <ul>
+        <li>SMA: SMA XYZ</li>
+        <li>Perguruan Tinggi: Universitas ABC</li>
+        <li>Jurusan: Teknik Informatika</li>
+    </ul>
 
-    
-</a></li>
-      
-      <div class="flex-1 flex-order-2 text-right">
-        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target Button--link Button--medium Button d-lg-none color-fg-inherit p-1">  <span class="Button-content">
-    <span class="Button-label"><div class="HeaderMenu-toggle-bar rounded my-1"></div>
-            <div class="HeaderMenu-toggle-bar rounded my-1"></div>
-            <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
-  </span>
-</button>
-      </div>
-    </div>
+    <h2>Pengalaman Kerja</h2>
+    <ul>
+        <li>Perusahaan X (tahun-tahun)</li>
+        <li>Perusahaan Y (tahun-tahun)</li>
+    </ul>
 
-
-    <div class="HeaderMenu--logged-out p-responsive height-fit position-lg-relative d-lg-flex flex-column flex-auto pt-7 pb-4 top-0">
-      <div class="header-menu-wrapper d-flex flex-column flex-self-end flex-lg-row flex-auto p-3 p-lg-0 rounded rounded-lg-0 mt-3 mt-lg-0">
-          <nav class="mt-0 px-3 px-lg-0 mb-3 mb-lg-0" aria-label="Global">
-            <ul class="d-lg-flex list-style-none">
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Product
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-    
-        <div id="loadingIndicator">
-            <div class="spinner-border text-primary" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-
-        <div id="modelOutput" class="mt-4"></div>
-
-        <!-- Gambar yang diperbesar saat zoom in -->
-        <div id="zoomedImage">
-            <img src="" id="zoomedImg" class="img-fluid">
-        </div>
-    </div>
-
-    <script>
-        function generateModel() {
-            var prompt = document.getElementById("prompt").value;
-            
-            // Tampilkan indikator loading
-            document.getElementById("loadingIndicator").style.display = "block";
-            
-            fetch(`https://itzpire.site/ai/3dmodel?prompt=${encodeURIComponent(prompt)}&negative_prompt=${encodeURIComponent(prompt)}`, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json'
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Sembunyikan indikator loading
-                document.getElementById("loadingIndicator").style.display = "none";
-                
-                if (data.status === 'success') {
-                    document.getElementById("modelOutput").innerHTML = `
-                        <div id="imageContainer" style="position: relative;">
-                            <img id="generatedImage" src="${data.result}" class="img-fluid" alt="Generated Model">
-                            <button class="btn btn-clear btn-secondary" onclick="clearOutput()"><i class="fas fa-times"></i></button>
-                            <a href="${data.result}" download="${data.result}" class="btn btn-download btn-success"><i class="fas fa-download"></i></a>
-                            <button class="btn btn-share btn-info" onclick="shareImage()"><i class="fas fa-share"></i></button>
-                        </div>
-                    `;
-                } else {
-                    document.getElementById("modelOutput").innerHTML = "<p class='text-danger'>Failed to generate model. Please try again later.</p>";
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById("loadingIndicator").style.display = "none";
-                document.getElementById("modelOutput").innerHTML = "<p class='text-danger'>Failed to generate model. Please try again later.</p>";
-            });
-        }
-        
-        function clearOutput() {
-            document.getElementById("modelOutput").innerHTML = "";
-        }
-
-        function shareImage() {
-            var imageSrc = document.getElementById("generatedImage").src;
-            if (navigator.share) {
-                navigator.share({
-                    title: document.title,
-                    text: 'Check out this generated model!',
-                    url: imageSrc
-                })
-                .then(() => console.log('Shared successfully'))
-                .catch(error => console.error('Error sharing:', error));
-            } else {
-                // Jika browser tidak mendukung fitur berbagi
-                alert("Sharing not supported. Image URL: " + imageSrc);
-            }
-        }
-
-        function zoomIn() {
-            var imageContainer = document.getElementById("imageContainer");
-            var zoomedImage = document.getElementById("zoomedImage");
-            var generatedImage = document.getElementById("generatedImage");
-            var zoomedImg = document.getElementById("zoomedImg");
-
-            zoomedImg.src = generatedImage.src; // Setel gambar pada zoomedImg
-            zoomedImage.style.display = "block"; // Tampilkan gambar yang diperbesar
-
-            // Atur ukuran gambar yang diperbesar
-            zoomedImg.style.maxWidth = generatedImage.naturalWidth + "px";
-            zoomedImg.style.maxHeight = generatedImage.naturalHeight + "px";
-
-            // Atur latar belakang hitam transparan
-            imageContainer.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-            imageContainer.style.zIndex = "9999"; // Tingkatkan z-index agar gambar zoom muncul di depan
-        }
-
-        function zoomOut() {
-        
-        var zoomedImage = document.getElementById("zoomedImage");
-
-            // Sembunyikan gambar yang diperbesar
-            zoomedImage.style.display = "none";
-
-            // Reset latar belakang menjadi transparan
-            var imageContainer = document.getElementById("imageContainer");
-            imageContainer.style.backgroundColor = "transparent";
-            imageContainer.style.zIndex = "0"; // Setel z-index ke nilai awal
-        }
-    </script>
+    <h2>Minat dan Hobi</h2>
+    <p>Menulis, membaca, dan bermain musik.</p>
 </body>
 </html>
